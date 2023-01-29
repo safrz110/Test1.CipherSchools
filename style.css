@@ -1,0 +1,165 @@
+.card {
+  width: 300px;
+  height: 420px;
+  /* border: 1px solid black; */
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px 3px silver;
+  position: absolute;
+}
+
+.card > img {
+  width: 100%;
+  height: 65%;
+  /* border: 1px solid black; */
+  border-radius: 25px;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sub_description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub_description > .discount_price {
+  font-size: 18px;
+  color: red;
+  font-weight: bolder;
+}
+
+.sub_description > .actual_price {
+  font-size: 12px;
+  color: black;
+  font-weight: lighter;
+}
+
+.size_div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.size_div > .right_rings_div {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+  justify-content: space-evenly;
+}
+
+.size_div > .left_rings_div {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+  justify-content: space-evenly;
+}
+
+.rings_div {
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.rings_div1 {
+  border: 2px solid gray !important;
+}
+
+.rings_div2 {
+  border: 2px solid red !important;
+}
+
+.rings_div3 {
+  border: 2px solid skyblue !important;
+}
+
+.ratings_div {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 5rem;
+  margin-top: 5%;
+}
+
+.buy {
+  color: purple;
+  font-weight: bolder;
+}
+
+.secondary_card {
+  width: 300px;
+  height: 120px;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px 3px silver;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: 450px;
+  background-color: purple;
+  color: white;
+}
+
+.secondary_card > .left_part {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 60%;
+  position: absolute;
+  left: 0%;
+  height: 100%;
+}
+
+.tag_line {
+  color: gray;
+  font-weight: light;
+  font-size: 18px;
+}
+.secondary_card > .right_part {
+  width: 40%;
+  position: absolute;
+  right: 0%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hash_tag {
+  color: red;
+}
+
+.top_left_discount {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  background-color: red;
+  color: white;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
